@@ -15,7 +15,7 @@ class CustomButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(30.0),
         child: MaterialButton(
           onPressed: callback,
-          minWidth: 200.0,
+          minWidth: 150.0,
           height: 45.0,
           child: Text(text),
         ),

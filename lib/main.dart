@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:graduatio_project103/Screens/englishSubject.dart';
 import 'package:graduatio_project103/Screens/signIn.dart';
 import 'package:graduatio_project103/Screens/signUp.dart';
 import 'package:graduatio_project103/Services/authentication.dart';
@@ -34,6 +35,7 @@ class MyApp extends StatelessWidget {
         routes: {
           'sign in': (context) => SignIn(),
           'sign up': (context) => SignUp(),
+          'english sub':(context) => EnglishSubject(),  
         },
         home: SignUp(),
       ),

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:graduatio_project103/Screens/signUp.dart';
 import '../shared_widgets/custombutton.dart';
-import './signUp.dart';
 
 class SignIn extends StatelessWidget {
   @override
@@ -82,7 +80,13 @@ class SignIn extends StatelessWidget {
               callback: () {
                 Navigator.pushNamed(context, 'sign up');
               },
-            )
+            ),
+            CustomButton(
+              text: "Test page",
+              callback: () {
+                Navigator.pushNamed(context, 'english sub');
+              },
+            ),
           ],
         ),
       ),
